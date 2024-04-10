@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    box-sizing: border-box; 
+    background-color: white;
+    color: black;
+    background-image: url('../assets/FundoTelap1.png'); 
+  
+}
+
+#imagem-principal{  
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    position: fixed;
+    top: 30px;
+
+}
+
+img{
+    width: 540px;
+    height: auto;
+    top: 110px;
+    position: fixed;
+    margin-left: 80px;
+   
+}
+
+#quadro-branco{
+    width: 540px;
+    top: 20px;
+    right: 50px; 
+    transform: translate(0, 0);
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.2);
+
+}
+
