@@ -17,20 +17,54 @@ body{
 }
 
 img{
+    display: flex;
+    position: fixed;
     width: 540px;
     height: auto;
     top: 110px;
     position: fixed;
     margin-left: 80px;
-   
+    z-index: -1;
+
 }
 
-#quadro-branco{
-    width: 540px;
-    top: 20px;
-    right: 50px; 
-    transform: translate(0, 0);
+.quadro-branco-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 40vw;
+    height: 550px;
+    float: right;
+    margin-right: 3vw;
+    margin-top: 40px;
+    border-radius: 7px;
     box-shadow: 0 4px 8px rgba(7, 7, 7, 0.2);
+    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
 
 }
+
+#cadastrar{
+    font-size: 25px;
+
+}
+
+#dados{
+    display: flex;
+    padding: 15px 80px;
+    border: 1px solid #595756;
+    color: #595756;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+#campo-email{
+    
+}
+
+
+
 
