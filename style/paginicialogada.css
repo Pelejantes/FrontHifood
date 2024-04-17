@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 90vw;
+    height: 18vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.palavra {
+    background: transparent;
+    color: #3e3e3e;
+    font-size: 1rem;
+    line-height: 1.25em;
+    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.campo-botao{
+    display: flex;
+    position: fixed;
+    left: 60px; 
+    top: 25%;
+}  
+
+.botoes{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    font-family: inherit;
+    margin-right: 80px;
+    top: 42%;
+    gap: 100px; 
+}
+
+.btn-lanches{
+    background-image: url(../assets/buttonlanches.png);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-saudaveis{
+    background-image: url(../assets/buttonsaudaveis.png);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-pizza{
+    background-image: url(../assets/buttonpizza.png);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-doces{
+    background-image: url(../assets/buttondoces.png);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-japonesa{
+    background-image: url(../assets/buttonjaponesa.png);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-brasileira{
+    background-image: url(../assets/buttonbrasileira.avif);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sorvete{
+    background-image: url(../assets/buttonsorvete.avif);
+    background-color: transparent;
+    width: 120px;
+    height: 85px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.palavras{
+    text-align: justify;
+    justify-content: left;
+    width: 75vw;
+    display: flex;
+    gap: 18vh;
+    position: fixed;
+    top: 52%;
+}
+
+.famosos{
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    gap: 70px;
+    position: fixed;
+    top: 75%;
+}
+
+.famoso-mc{
+    background-image: url(../assets/iconemc.png);
+    background-color: transparent;
+    width: 59px;
+    height: 62px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.famoso-sukiya{
+    background-image: url(../assets/iconesukiya.png);
+    background-color: transparent;
+    width: 59px;
+    height: 62px;
+    background-size: cover;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.famoso-lig{
+    background-image: url(../assets/iconelig.png);
+    background-color: transparent;
+    width: 59px;
+    height: 62px;
+    background-size: cover;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.famoso-bambu{
+    background-image: url(../assets/iconebambu.png);
+    background-color: transparent;
+    width: 59px;
+    height: 62px;
+    background-size: cover;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.busca-item{
+    background-color: #f2f2f2;
+    color: #3e3e3e;
+    padding: 22px 85px;
+    border: none;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+}
+
+.descontos{
+    background-color: rgba(80, 167, 115, 1);
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    padding: 25px 790px;
+    display: flex;
+    position:fixed;
+    top: 18%;
+    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
