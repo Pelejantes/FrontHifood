@@ -30,21 +30,35 @@ header{
 
 .campo-botao{
     display: flex;
-    position: fixed;
-    left: 60px; 
-    top: 25%;
+    width: 100vw;
 }  
+.busca-item{
+    margin-left: 40px;
+    background-color: #f2f2f2;
+    color: #3e3e3e;
+    padding: 22px 85px;
+    border: none;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+}
 
 .botoes{
     display: flex;
-    position: fixed;
+    height: 200px;
+    width: 1200px;
     align-items: center;
     font-family: inherit;
+    justify-content: space-around;
     margin-right: 80px;
-    top: 42%;
-    gap: 100px; 
 }
-
+.botoes img{
+    width: 100px;
+}
+.botoes h3{
+    text-align: center;
+}
 .btn-lanches{
     background-image: url(../assets/buttonlanches.png);
     background-color: transparent;
@@ -122,8 +136,6 @@ header{
     width: 75vw;
     display: flex;
     gap: 18vh;
-    position: fixed;
-    top: 52%;
 }
 
 .famosos{
@@ -131,8 +143,6 @@ header{
     align-items: center;
     font-family: inherit;
     gap: 70px;
-    position: fixed;
-    top: 75%;
 }
 
 .famoso-mc{
@@ -178,17 +188,6 @@ header{
     cursor: pointer;
 }
 
-.busca-item{
-    background-color: #f2f2f2;
-    color: #3e3e3e;
-    padding: 22px 85px;
-    border: none;
-    margin-right: 60px;
-    margin-top: 40px;
-    border-radius: 5px;
-    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
-}
-
 .descontos{
     background-color: rgba(80, 167, 115, 1);
     color: white;
@@ -196,10 +195,6 @@ header{
     justify-content: center;
     padding: 25px 790px;
     display: flex;
-    position:fixed;
-    top: 18%;
     font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
     font-weight: bold;
 }
-
-
