@@ -1,200 +1,220 @@
-body{
-    display: flex;
-    flex-direction: column;
+body {
+    display        : flex;
+    flex-direction : column;
     justify-content: flex-start;
-    align-items: center;
+    align-items    : center;
 }
 
-header{
+.fundo_modal {
+    position: fixed;
+    background-color: #3e3e3ea5;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    width: 90vw;
-    height: 18vh;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+}
+.modal {
+    position  : fixed;
+    background: rgb(236, 236, 236);
+    padding   : 30vw 20vw;
+    border-radius: 20px;
+}
+
+header {
+    display        : flex;
+    width          : 90vw;
+    height         : 18vh;
+    justify-content: space-between;
+    align-items    : center;
 }
 
 .palavra {
-    background: transparent;
-    color: #3e3e3e;
-    font-size: 1rem;
+    background : transparent;
+    color      : #3e3e3e;
+    font-size  : 1rem;
     line-height: 1.25em;
     font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
     font-weight: bold;
 }
 
 .container {
-    display: flex;
+    display    : flex;
     align-items: center;
-    gap: 20px; 
+    gap        : 20px;
 }
 
-.campo-botao{
+.campo-botao {
     display: flex;
-    width: 100vw;
-}  
-.busca-item{
-    margin-left: 40px;
+    width  : 100vw;
+}
+
+.busca-item {
+    margin-left     : 40px;
     background-color: #f2f2f2;
-    color: #3e3e3e;
-    padding: 22px 85px;
-    border: none;
-    margin-right: 60px;
-    margin-top: 40px;
-    border-radius: 5px;
-    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+    color           : #3e3e3e;
+    padding         : 22px 85px;
+    border          : none;
+    margin-right    : 60px;
+    margin-top      : 40px;
+    border-radius   : 5px;
+    font-family     : "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
 }
 
-.botoes{
-    display: flex;
-    height: 200px;
-    width: 1200px;
-    align-items: center;
-    font-family: inherit;
+.botoes {
+    display        : flex;
+    height         : 200px;
+    width          : 1200px;
+    align-items    : center;
+    font-family    : inherit;
     justify-content: space-around;
-    margin-right: 80px;
+    margin-right   : 80px;
 }
-.botoes img{
+
+.botoes img {
     width: 100px;
 }
-.botoes h3{
+
+.botoes h3 {
     text-align: center;
 }
-.btn-lanches{
+
+.btn-lanches {
     background-image: url(../assets/buttonlanches.png);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
-    text-align: center;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
+    text-align      : center;
 }
 
-.btn-saudaveis{
+.btn-saudaveis {
     background-image: url(../assets/buttonsaudaveis.png);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.btn-pizza{
+.btn-pizza {
     background-image: url(../assets/buttonpizza.png);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.btn-doces{
+.btn-doces {
     background-image: url(../assets/buttondoces.png);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.btn-japonesa{
+.btn-japonesa {
     background-image: url(../assets/buttonjaponesa.png);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.btn-brasileira{
+.btn-brasileira {
     background-image: url(../assets/buttonbrasileira.avif);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.btn-sorvete{
+.btn-sorvete {
     background-image: url(../assets/buttonsorvete.avif);
     background-color: transparent;
-    width: 120px;
-    height: 85px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 120px;
+    height          : 85px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.palavras{
-    text-align: justify;
+.palavras {
+    text-align     : justify;
     justify-content: left;
-    width: 75vw;
-    display: flex;
-    gap: 18vh;
+    width          : 75vw;
+    display        : flex;
+    gap            : 18vh;
 }
 
-.famosos{
-    display: flex;
+.famosos {
+    display    : flex;
     align-items: center;
     font-family: inherit;
-    gap: 70px;
+    gap        : 70px;
 }
 
-.famoso-mc{
+.famoso-mc {
     background-image: url(../assets/iconemc.png);
     background-color: transparent;
-    width: 59px;
-    height: 62px;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 59px;
+    height          : 62px;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.famoso-sukiya{
+.famoso-sukiya {
     background-image: url(../assets/iconesukiya.png);
     background-color: transparent;
-    width: 59px;
-    height: 62px;
-    background-size: cover;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 59px;
+    height          : 62px;
+    background-size : cover;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.famoso-lig{
+.famoso-lig {
     background-image: url(../assets/iconelig.png);
     background-color: transparent;
-    width: 59px;
-    height: 62px;
-    background-size: cover;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 59px;
+    height          : 62px;
+    background-size : cover;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.famoso-bambu{
+.famoso-bambu {
     background-image: url(../assets/iconebambu.png);
     background-color: transparent;
-    width: 59px;
-    height: 62px;
-    background-size: cover;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    width           : 59px;
+    height          : 62px;
+    background-size : cover;
+    background-size : cover;
+    border          : none;
+    cursor          : pointer;
 }
 
-.descontos{
+.descontos {
     background-color: rgba(80, 167, 115, 1);
-    color: white;
-    text-align: justify;
-    justify-content: center;
-    padding: 25px 790px;
-    display: flex;
-    font-family: "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
-    font-weight: bold;
+    color           : white;
+    text-align      : justify;
+    justify-content : center;
+    padding         : 25px 790px;
+    display         : flex;
+    font-family     : "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+    font-weight     : bold;
 }
