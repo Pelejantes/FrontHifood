@@ -50,9 +50,19 @@ img{
 
 }
 
+.cadastrar{
+    display: flex;
+    padding: 10px 95px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea1d2c;
+    color: white;
+}
+
 #dados{
     display: flex;
     padding: 15px 80px;
+    padding-left: 10px;
     border: 1px solid #595756;
     color: #595756;
     margin-top: 30px;
@@ -66,5 +76,7 @@ img{
 }
 
 
-
+.destaque{
+    color: red;
+}
 
