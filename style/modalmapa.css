@@ -1,0 +1,73 @@
+.fundo_modal {
+    position: fixed;
+    background-color: #3e3e3ea5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_mapa {
+    background-color: rgba(255, 255, 255, 1);
+    display        : flex;
+    height         : 500px;
+    width          : 650px;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_mapa {
+    background-color: rgba(255, 255, 255, 1);
+    display        : flex;
+    height         : 450px;
+    width          : 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.caixas {
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center
+}
+
+.caixa_buscar {
+    background-color:rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    justify-content: flex-start
+}
+
+.caixa_inserir {
+    display: flex;
+    padding: 15px 170px;
+    background-color: rgba(247, 247, 247, 1);
+    border-radius: 2%;
+    border: none;
+}
+
+.caixa_meulocal {
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.caixa_meulocal :hover {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+*{
+    font-family     : "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+}
+
+
