@@ -9,7 +9,7 @@
 }
 
 .fechar_carrinho{
-    background-color: red;
+    background-color: rgba(255, 255, 255, 1);
     display: flex;
     width: 100%;
     align-items: flex-start;
@@ -19,9 +19,9 @@
 .modal_carrinho {
     background-color: rgba(255, 255, 255, 1);
     display        : flex;
-    height         : 580px;
     width          : 350px;
-    border-radius: 2%;
+    padding: 15px 10px;
+    border-radius: 0.3rem;
     justify-content: center;
     align-items: center;
 }
