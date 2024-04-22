@@ -1,0 +1,27 @@
+.fundo_modal {
+    position: fixed;
+    background-color: #3e3e3ea5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fechar_carrinho{
+    background-color:red;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.modal_carrinho {
+    background-color: aqua;
+    display        : flex;
+    width          : 350px;
+    padding: 15px 10px;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
