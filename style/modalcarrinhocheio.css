@@ -9,7 +9,7 @@
 }
 
 .fechar_carrinho{
-    background-color:red;
+    background-color:rgba(255, 255, 255, 1);
     display: flex;
     width: 100%;
     align-items: flex-start;
@@ -17,11 +17,75 @@
 }
 
 .modal_carrinho {
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 1);
     display        : flex;
     width          : 350px;
-    padding: 15px 10px;
+    padding: 20px 20px;
     border-radius: 0.3rem;
     justify-content: center;
     align-items: center;
 }
+
+.caixa_carrinhocheio {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.caixas {
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixas_produto {
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.texto_vermelho {
+    display: flex;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.cupom {
+    display: flex;
+    align-items: center;
+
+}
+
+.botao-total {
+    display: flex;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+*{
+    font-family     : "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
+}
+
