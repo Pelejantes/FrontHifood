@@ -20,7 +20,8 @@
     background-color: rgba(255, 255, 255, 1);
     display        : flex;
     width          : 350px;
-    padding: 20px 20px;
+    padding: 20px 5vh;
+    padding-bottom: 5vh;
     border-radius: 0.3rem;
     justify-content: center;
     align-items: center;
@@ -43,6 +44,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.caixas a:nth-child(1){
+    color: black;
+}
 
 .caixas_produto {
     background-color:  rgba(255, 255, 255, 1);
@@ -51,6 +55,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+.caixas_produto div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .botoes{
@@ -81,11 +90,33 @@
     border-radius: 0.3rem;
     justify-content: center;
     align-items: center;
-    background-color: red;
     color: white;
+    width: 100%;
+    margin-top: 2vw;
+
+}
+
+/* *{
+    border:1px dashed blue !important;
+} */
+
+.botao-total input[type='button']{
+    background-color: red;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    border: none;
 }
 
 *{
     font-family     : "iFood RC Titulos", iFood RC Textos, helvetica, sans-serif;
 }
 
+hr{
+    width: 100%;
+    color: lightgray;
+}
+
+a{
+    text-decoration: none;
+}
